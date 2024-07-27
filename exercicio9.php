@@ -9,7 +9,7 @@
         }
     }
 
-    $resultado = fibonacci(10);
-    echo $resultado;
-
+    for ($i = 0; $i <= 10; $i++) {
+        echo fibonacci($i) . "<br>";
+    }
 ?>
